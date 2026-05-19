@@ -1,0 +1,9 @@
+{
+  "migrations": [
+    {
+      "old": "1A1zP1eP5QGefi2DMPTfTL5SLmv7Divf",
+      "new": "5bd14b71c20e1c5e9a41cfa78080eb2325",
+      "algorithm": "CRYSTALS-Dilithium"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "blocks": [
+    {
+      "index": 1,
+      "hash": "0000ef1c8d177a62c828c95d22020ccec000a4fe70c07db62df72758e8c75507",
+      "nonce": 85070,
+      "verified": true,
+      "reward": 50,
+      "time": "2026-05-19 12:18:20"
+    },
+    {
+      "index": 2,
+      "hash": "0000574ab05758619ea7e5c90a747c9f33649413dcfe591378b5901c7b42ed3b",
+      "miner": "kyleashleydalebaker",
+      "reward": 50
+    },
+    {
+      "index": 3,
+      "hash": "00009cbc6150fddb07232316f2b239244bbb3679392185e3165f1d28e5081cbf",
+      "miner": "kyleashleydalebaker",
+      "reward": 50
+    },
+    {
+      "index": 4,
+      "hash": "000058fa8e540934abdb53bd984002a9db4d8d63519ebc987822fd8936020e69",
+      "miner": "kyleashleydalebaker",
+      "reward": 50
+    },
+    {
+      "index": 5,
+      "hash": "0000959efd2bd6084f367683276eebaf6d7025eaa35fa5c21d08e8084c517127",
+      "miner": "kyleashleydalebaker",
+      "reward": 50
+    },
+    {
+      "index": 6,
+      "hash": "0000f0079730b8f337e2deae805af22ecab44f9b6c39509e0a4e638f333ddd46",
+      "miner": "kyleashleydalebaker",
+      "reward": 50.0
+    }
+  ],
+  "balances": {
+    "Alice": 130,
+    "Bob": 120,
+    "kyleashleydalebaker": 246.0,
+    "3": 4.0
+  },
+  "total_mined": 250
+}

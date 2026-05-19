@@ -1,0 +1,37 @@
+FREEDOM Coin (FREE) Whitepaper
+================================
+
+PROBLEM
+Bitcoin and all major cryptocurrencies are
+vulnerable to quantum computers which could
+break their security.
+
+SOLUTION
+FREEDOM coin uses quantum resistant
+cryptography that cannot be broken by
+quantum computers.
+
+SPECIFICATIONS
+Name: FREEDOM Coin
+Ticker: FREE
+Total Supply: 21,000,000
+Block Reward: 50 FREE
+Halving: Every 4 years
+Founder Allocation: 2% (420,000 coins)
+Transaction Fees: Very low
+
+VISION
+True financial freedom that remains secure
+even in the quantum computing era.
+Accessible to everyone, everywhere.
+
+TECHNOLOGY
+Quantum resistant signatures
+Proof of work mining
+Decentralised network
+Open source code
+
+GitHub: github.com/bakerkyle1992-lgtm/Freedom-coin
+
+Version: 0.1
+Author: Kyle Baker
