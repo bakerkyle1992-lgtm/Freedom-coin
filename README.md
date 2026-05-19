@@ -35,3 +35,6 @@ bakerkyle1992-lgtm
 
 ## License
 MIT
+
+## Website
+https://bakerkyle1992-lgtm.github.io/Freedom-coin
