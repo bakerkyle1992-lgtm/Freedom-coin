@@ -1,0 +1,22 @@
+{
+  "notifications": [
+    {
+      "type": "RECEIVED",
+      "msg": "You received 50 FREE",
+      "time": "19:23:14",
+      "read": true
+    },
+    {
+      "type": "MINING",
+      "msg": "Block mined reward 50 FREE",
+      "time": "19:23:14",
+      "read": true
+    },
+    {
+      "type": "SECURITY",
+      "msg": "New node connected",
+      "time": "19:23:14",
+      "read": true
+    }
+  ]
+}
