@@ -1,0 +1,17 @@
+{
+  "contracts": [
+    {
+      "id": "FC-474CE4CD657F",
+      "party1": "kyleashleydalebaker",
+      "party2": "sarahelissewilson",
+      "terms": "Transfer 50 FREE coins when condition is met",
+      "amount": 50.0,
+      "condition": "When Sarah confirms receipt of funds",
+      "deadline": "2026-12-31",
+      "status": "active",
+      "quantum_safe": true,
+      "algorithm": "CRYSTALS-Dilithium NIST 2024",
+      "created": "2026-05-19 18:43:56"
+    }
+  ]
+}

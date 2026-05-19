@@ -1,0 +1,14 @@
+{
+  "vaults": [
+    {
+      "owner": "kyleashleydalebaker",
+      "recipient": "myfamily",
+      "message": "e4873839d496eba54b2b88e8f145551e638b1300056ca3cc09edf22747f5c3ab",
+      "amount": 100.0,
+      "unlock_date": "2030-01-01",
+      "key": "f95c122718a74a8c",
+      "created": "2026-05-19",
+      "status": "locked"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "transactions": [
+    {
+      "tx_hash": "33d829bd933ee8bf",
+      "stealth_address": "93113c9d0b3c4296d41b96e9869f205f63",
+      "amount": 50.0,
+      "status": "pending_confirmation",
+      "time": "2026-05-19 18:33:21",
+      "visible_on_chain": false
+    }
+  ]
+}
