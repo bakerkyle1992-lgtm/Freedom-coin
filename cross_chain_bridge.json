@@ -1,0 +1,13 @@
+{
+  "bridges": [
+    {
+      "tx_id": "9b1db589d6b2f262",
+      "chain": "Bitcoin",
+      "direction": "incoming",
+      "amount": 0.001,
+      "address": "979da6d3b378b022f36bb84dd7d512faf2",
+      "status": "pending",
+      "time": "2026-05-20 13:50:31"
+    }
+  ]
+}

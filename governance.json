@@ -1,0 +1,13 @@
+{
+  "proposals": [
+    {
+      "id": 1,
+      "title": "Increase block reward to 100 FREE",
+      "desc": "Proposal to increase mining reward from 50 to 100 FREE per block to attract more miners to the network",
+      "yes": 245,
+      "no": 0,
+      "deadline": "2026-05-20",
+      "status": "active"
+    }
+  ]
+}

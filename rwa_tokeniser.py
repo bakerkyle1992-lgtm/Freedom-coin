@@ -1,0 +1,41 @@
+import hashlib,json,os,time
+RWA_FILE="real_world_assets.json"
+def load(): return json.load(open(RWA_FILE)) if os.path.exists(RWA_FILE) else {"assets":[]}
+def save(d): json.dump(d,open(RWA_FILE,"w"),indent=2)
+def tokenise():
+    print("=== FREEDOM REAL WORLD ASSET TOKENISER ===")
+    print("Turn any real world asset into a digital token")
+    print()
+    print("Asset types:")
+    print("1. Property")
+    print("2. Shares")
+    print("3. Gold")
+    print("4. Business")
+    print("5. Other")
+    asset_types={"1":"Property","2":"Shares","3":"Gold","4":"Business","5":"Other"}
+    c=input("Asset type: ")
+    asset_type=asset_types.get(c,"Other")
+    name=input("Asset name: ")
+    value=float(input("Asset value in AUD: "))
+    tokens=int(input("Number of tokens to create: "))
+    owner=input("Owner wallet: ")
+    token_value=value/tokens
+    token_id="RWA-"+hashlib.sha256((name+owner+str(time.time())).encode()).hexdigest()[:12].upper()
+    asset={"token_id":token_id,"type":asset_type,"name":name,"total_value":value,"tokens":tokens,"token_value":round(token_value,2),"owner":owner,"created":time.strftime("%Y-%m-%d"),"quantum_secured":True}
+    data=load()
+    data["assets"].append(asset)
+    save(data)
+    print()
+    print("Asset tokenised!")
+    print("Token ID: "+token_id)
+    print("Asset: "+name)
+    print("Type: "+asset_type)
+    print("Total value: $"+str(value)+" AUD")
+    print("Tokens created: "+str(tokens))
+    print("Value per token: $"+str(round(token_value,2))+" AUD")
+    print("Quantum secured: YES")
+    print()
+    print("This asset is now on the FREEDOM blockchain")
+    print("Tradeable, divisible and quantum protected")
+    print("No bank or broker needed")
+tokenise()

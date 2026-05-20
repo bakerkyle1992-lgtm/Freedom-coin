@@ -1,0 +1,12 @@
+{
+  "loans": [
+    {
+      "lender": "kyleashleydalebaker",
+      "amount": 50.0,
+      "days": 30,
+      "interest": 0.21,
+      "status": "active",
+      "date": "2026-05-20"
+    }
+  ]
+}

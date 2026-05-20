@@ -1,0 +1,15 @@
+{
+  "assets": [
+    {
+      "token_id": "RWA-5E49FEEEF138",
+      "type": "Property",
+      "name": "myhousequeensland",
+      "total_value": 500000.0,
+      "tokens": 1000,
+      "token_value": 500.0,
+      "owner": "kyleashleydalebaker",
+      "created": "2026-05-20",
+      "quantum_secured": true
+    }
+  ]
+}
